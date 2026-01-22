@@ -1,0 +1,59 @@
+
+.container{
+    border: 4px;
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bigBox{
+    border: 5px dotted black;
+    width: 1600px;
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    border: 3px solid lightgray;
+    width: 300px;
+    height: 850px;
+    float: left;
+}
+
+.ethiopia{
+    border: 2px solid lightblue;
+    width: 350px;
+    height: 850px;
+    text-indent: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    font-size: 10px;
+    padding: 2.5px;
+    text-align: justify;
+}
+.kenya{
+    border: 2px solid lightblue;
+    width: 350px;
+    height: 850px;
+    text-indent: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    font-size: 10px;
+    padding: 2.5px;
+    text-align: justify;
+}
+.southAfrica{
+    border: 2px solid lightblue;
+    width: 350px;
+    height: 850px;
+    text-indent: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    font-size: 10px;
+    padding: 2.5px;
+    text-align: justify;
+}
+li:nth-child(-n + 7){
+    background-color: none;
+    padding-bottom: 30px;
+}
